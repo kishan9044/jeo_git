@@ -15,5 +15,9 @@
 
 -> git commit -m "<enter a commit message>"
 
--> 
+-> git log
+
+-> git diff (compare with changes in working area and previous commit)     -> git diff --staged (compare with changes in staging area and previous commit)
+
+->
 
