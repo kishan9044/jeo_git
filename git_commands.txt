@@ -19,5 +19,5 @@
 
 -> git diff (compare with changes in working area and previous commit)     -> git diff --staged (compare with changes in staging area and previous commit)
 
-->
+-> git rm --cached <filename.extension> (remove the file from git history. i.e., if you have commited a file and want to remove it from git history)
 
