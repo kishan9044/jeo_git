@@ -54,7 +54,7 @@ git branch -d <branch_name>
 -> git branch --all
 
 # Always pull from remote typically main before merge
-git pull <branch_name>
+git pull origin <branch_name>
 # To merge to a branch
 -> 1. Checkout to branch you want to merge to
 -> git merge <branch_name>
