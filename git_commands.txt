@@ -58,3 +58,7 @@ git pull origin <branch_name>
 # To merge to a branch
 -> 1. Checkout to branch you want to merge to
 -> git merge <branch_name>
+
+###### important ########
+
+-> pull from origin main, checkout to main and then Merge from feature to main, push to origin main
