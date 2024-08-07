@@ -44,3 +44,5 @@
 
 # General psuh to remote repo
 -> git push origin <branch_name>
+
+-> git clone <https_url>
