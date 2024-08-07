@@ -53,6 +53,8 @@ git branch -d <branch_name>
 # See all branch in local and remote repo
 -> git branch --all
 
+# Always pull from remote typically main before merge
+git pull <branch_name>
 # To merge to a branch
 -> 1. Checkout to branch you want to merge to
 -> git merge <branch_name>
