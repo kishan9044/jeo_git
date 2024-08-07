@@ -1,0 +1,38 @@
+##### Git commands #####
+
+-> git --version
+
+-> git config --global --list
+
+-> git config --global user.name "<username>"
+-> git config --global user.email "<useremail>"
+
+-> git init             -> git init -b main
+
+-> git status
+
+-> git add .            -> git add <filename.extension>
+
+-> git commit -m "<enter a commit message>"
+
+-> git log
+
+-> git diff (compare with changes in working area and previous commit)     -> git diff --staged (compare with changes in staging area and previous commit)
+
+-> git rm --cached <filename.extension> (remove the file from git history. i.e., if you have commited a file and want to remove it from git history)
+
+-> git clone <http_url>
+
+-> git branch <branchname>
+
+-> git checkout <branchname>
+
+
+# initial setup to connect to remote repo with ssh
+-> 1. ssh-keygen -o
+-> 2. Keep pressing enter for the rest
+-> 3. Go to this directory  C:\Users\<username> and type -> dir /a
+-> 4. cd .ssh
+-> 5. dir
+-> 6. start id_rsa.pub
+-> 7. copy key
