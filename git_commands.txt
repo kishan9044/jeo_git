@@ -42,7 +42,7 @@
 # first time push to remote repo
 -> git push -u origin <branch_name>
 
-# General psuh to remote repo
+# General push to remote repo
 -> git push origin <branch_name>
 
 -> git clone <https_url>
