@@ -46,3 +46,9 @@
 -> git push origin <branch_name>
 
 -> git clone <https_url>
+
+# delete a git branch
+git branch -d <branch_name>
+
+# See all branch in local and remote repo
+-> git branch --all
