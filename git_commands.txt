@@ -36,3 +36,11 @@
 -> 5. dir
 -> 6. start id_rsa.pub
 -> 7. copy key
+
+# Connect the local repo to remote repo
+-> git remote add origin <SSH_link>
+# first time push to remote repo
+-> git push -u origin <branch_name>
+
+# General psuh to remote repo
+-> git push origin <branch_name>
